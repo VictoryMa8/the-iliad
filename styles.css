@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Inconsolata|Merriweather");
-
 body {
-  font-family: "Inconsolata", monospace;
+  font-family: "Lora", "Times New Roman", Times, serif;
   margin: 0;
 }
 
@@ -35,6 +33,10 @@ button {
 .project img {
   position: absolute;
   opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-left: 0;
 }
 
 .project p {
@@ -75,7 +77,7 @@ button {
   justify-items: center;
   align-items: center;
   transform: translateY(101%);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .grid__overlay button {
@@ -116,7 +118,7 @@ button {
 .overlay__inner {
   background: #ffffff;
   width: 60%;
-  padding: 20px;
+  padding: 30px;
   position: relative;
   opacity: 1;
 }
