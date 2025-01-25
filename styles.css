@@ -148,3 +148,7 @@ button {
 .project__image {
   margin-left: -50%;
 }
+
+#abt-card {
+  margin: 75px;
+}
