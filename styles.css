@@ -28,6 +28,7 @@ button {
   position: relative;
   background: #f2dad7;
   overflow: hidden;
+  height: 333px;
 }
 
 .project img {
@@ -143,10 +144,6 @@ button {
 
 .close:hover {
   color: #1d613e;
-}
-
-.project__image {
-  margin-left: -50%;
 }
 
 #abt-card {
