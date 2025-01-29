@@ -154,3 +154,13 @@ button {
 #abt-card {
   margin: 25px 75px;
 }
+
+#artists-statement {
+  border: 4px outset #1d613e;
+  width: 60%;
+}
+
+iframe {
+  width: 100%;
+  height: 700px;
+}
